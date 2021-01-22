@@ -1,6 +1,6 @@
-# deneme1
+# flutter-deneme
 
-A new Flutter project.
+A new "todo app" Flutter project.
 
 ## Getting Started
 
