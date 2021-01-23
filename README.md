@@ -1,4 +1,4 @@
-# flutter-deneme
+# flutter/todoapp
 
 A new "todo app" Flutter project.
 
