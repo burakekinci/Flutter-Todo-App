@@ -80,12 +80,14 @@ class TodoWidget extends StatelessWidget {
               image: AssetImage('assets/images/check_icon.png'),
             ),
           ),
-          Text(
-            text ?? "(unnamed todo)",
-            style: TextStyle(
-              color: isDone ? Colors.black : Colors.grey,
-              fontSize: 16.0,
-              fontWeight: isDone ? FontWeight.bold : FontWeight.w100,
+          Flexible(
+            child: Text(
+              text ?? "(unnamed todo)",
+              style: TextStyle(
+                color: isDone ? Colors.black : Colors.grey,
+                fontSize: 16.0,
+                fontWeight: isDone ? FontWeight.bold : FontWeight.w100,
+              ),
             ),
           ),
         ],
